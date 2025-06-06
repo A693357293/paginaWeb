@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+   
+     background-image: url(lunas.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+    
+}
+header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  
+
+
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.menu {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #031120ec;
+  
+    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+.menu .logo {
+   
+    font-weight: 300;
+    font-size: 25px;
+    color: #fefefe;
+    padding: 30px;
+    
+
+}
+
+
+.navbar2  ul {
+   
+  list-style: none;      /* Quita los puntos de la lista */
+  display: flex;         /* Alinea en fila */
+  gap: 20px;             /* Espacio entre elementos */
+  padding: 40px;            /* Quita padding por defecto */
+  margin: 0;             /* Quita margen por defecto */
+    
+
+}
+
+.navbar2 li a {
+  text-decoration: none;  /* Quita subrayado */
+  color: rgb(255, 255, 255);           /* Cambia el color del texto (puedes personalizar) */
+  font-weight: bold;
+  
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left; 
+    
+
+   
+}
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px 35px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    display: block;
+
+     
+}
+.menu .navbar ul li a:hover {
+    background-color: #3EDADD;
+    
+    
+}
+
+#menu {
+    display: none;
+}
+.menu-icono {
+
+    width: 25px;
+  
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+.header-content {
+    display: flex;
+}
+.header-content img {
+    width: 550px;
+    margin-top: 100px;
+}
+.content {
+    padding: 150px 50px 0px 0px;
+}
+.content h1 {
+    color: #FFFFFF;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.content p {
+    margin-top: 25px;
+    color: #FFFFFF;
+}
+.btn-1 {
+    display: inline-block;
+    background-color: #3EDADD;
+    margin-top: 80px;
+    padding: 15px 25px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.btn-1:hover {
+    background-color: #2ACCCF;
+}
+.services {
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #FFFFFF;
+}
+.service {
+    padding: 30px;
+    margin: 0px 10px;
+    background-color: #0E0F52;
+}
+.service img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.service p {
+    font-size: 16px;
+}
+
+.features {
+    padding: 50px 0px;
+    display: flex;
+    color: #FFFFFF;
+}
+.features img {
+    width: 350px;
+}
+.feature {
+    margin-right: 155px;
+}
+.feature h2 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+.feature h3 {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.contacts {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact img {
+    width: 250px;
+    margin-right: 100px;
+}
+.contact h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    
+}
+.contact h1 {
+    color: #FFFFFF;
+    font-size: 20px;
+    
+
+}
+.contact .nombre {
+    padding: auto;
+    color: #2ACCCF;
+}
+
+.contact h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+   
+    margin-left: 100px; 
+    
+}
+  
+
+
+
+
+.contact img {
+    width: 80px;
+}
+form {
+    margin-bottom: 25px;
+}
+.btn-2 {
+    background-color: #1D235D;
+    padding: 10px 25px;
+    border: 2px solid #1D235D;
+    color: #FFFFFF;
+}
+
+.btn-3 {
+    background-color: #3EDADD;
+    padding: 10px 25px;
+    border: 0;
+    color: #FFFFFF;
+}
+footer {
+    padding: 30px 0px;
+    background-color: #0E134A;
+    color: #FFFFFF;
+}
+.enlaces {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enlaces h3 {
+    font-size: 25px;
+}
+.enlace {
+    display: flex;
+}
+
+.enlace li a {
+    display: block;
+    margin: 20px;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    border-radius: 15px;
+}
+.enlace li a:hover {
+    background-color: #3EDADD;
+}
+@media(max-width: 991px) {
+    .menu {
+        padding: 20px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #0E0F52;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    .menu .navbar ul li a {
+        margin: 10px;
+        padding: 15px 35px;
+
+    }
+    #menu:checked ~ .nadbar {
+        display: initial;
+
+    }
+    header {
+        height: 0vh;
+        padding: 400px 0px 340px 0px;
+    }
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    .content {
+        padding: 0;
+    }
+    .content h1 {
+        margin-top: 0;
+    }
+    .content p {
+        margin-top: 15px;
+    }
+    .btn-1 {
+        margin-top: 15px;
+    }
+    .header-content img {
+        margin-top: 45px;
+        width: 200px;
+    }
+    .services {
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+        
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .features {
+       flex-direction: column;
+       align-items: center;
+       padding: 0px 30px;
+       text-align: center;
+
+    }
+    .features img {
+        width: 150px;
+        margin-top: 35px;
+    }
+    .feature {
+        margin: 0px;
+    }
+    .contacts {
+        padding: 50px 30px;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contacts img {
+        display: none;
+    }
+    .contact h2 {
+        font-size: 25px;
+        color: #FFFFFF;
+
+    }
+    .btn-2 {
+        margin-bottom: 25px;
+    }
+    footer {
+        padding: 30px;
+    }
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .enlace {
+        flex-direction: column;
+    }
+
+
+ 
+     
+
+}
+
+
+
+
+
+
